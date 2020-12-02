@@ -24,7 +24,7 @@ class OBJtoSTL {
     convert(file_data) {
         let lines = file_data.split('\n');
 
-        if (lines.length > 3000000) {
+        if (lines.length > 1000000) {
             // five hundred thousand lines is a ton
             alert("File too big");
             return "";
